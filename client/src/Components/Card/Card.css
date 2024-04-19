@@ -1,0 +1,109 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffb7;
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 20px rgba(119, 118, 118, 0.945);
+    transform: translatey(-2%);
+    transition: all 400ms ease;
+    justify-content:space-between;
+    overflow: hidden;
+    margin-right: 4px;
+    margin-left: 3px;
+    
+    
+    
+   
+    
+}
+.imageCard{
+    height: 120px;
+    width: 180px;
+    border-radius: 20px;
+    margin: 9px;
+    padding-top: 3px;
+    transition: all 400ms ease;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  
+    border-radius: 20px;
+}
+
+.card-container:hover {
+    background-color: #77aab3a2;
+    box-shadow: 0 0 10px  #3c3c3d, 0 0 10px  #312c2c, 0 0 10px  #b1b1b1 ;
+    transform: translateY(-15px);
+   
+    
+}
+.card-name {
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 1px;
+    color: rgb(14, 13, 13) ;
+    text-decoration: underline;
+    
+    
+}
+
+
+
+
+
+
+.card-info {
+    margin-bottom: 26px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+    margin-top: 20px;
+}
+
+
+.imageCard:hover {
+    background-color: #6D8BE8;
+    box-shadow: 0 0 10px  #6D8BE8, 0 0 10px  #6D8BE8, 0 0 10px  #6D8BE8 ;
+    transition-delay: 3ms;
+    
+    
+}
+
+@media (max-width: 500px){
+
+ 
+    .card-container {
+        display: flex;
+        align-items: center;
+        background-color: #ffffffb7;
+        height: 100px;
+        width: 100px;
+        margin-left: 300px;
+        box-shadow: 5px 5px 20px rgba(119, 118, 118, 0.945);
+        transform: translatey(-2%);
+        transition: all 400ms ease;
+        justify-content:space-between;
+        overflow: hidden;
+        
+        
+        
+       
+        
+    }
+    .imageCard{
+        height: 100px;
+        width: 80px;
+        border-radius: 20px;
+        margin: 9px;
+        padding-top: 3px;
+        transition: all 400ms ease;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+      
+        border-radius: 20px;
+    }
+    
+    
+    }

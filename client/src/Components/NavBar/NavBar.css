@@ -1,0 +1,78 @@
+ *{
+    border-radius: 10px;
+}
+.navBarContainer{
+    /* background-image: url("../../assets/gifavion.gif");
+    background-size:unset ;
+    background-repeat:no-repeat ;
+    background-position:center ; */
+    background: linear-gradient(150deg, #57a8c4, #2a63b9, #e6e1e1);
+    animation: BgGradient 10s ease infinite;
+    background-size: 400% 300%;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+@keyframes BgGradient {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 300%;}
+    100%{background-position: 0% 50%;}
+}
+    
+.navContent{
+    justify-content: space-around ;
+    display: inline-flex;
+    width: 100%;
+    
+   
+ 
+}
+.navLink{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-size: 2rem ;
+     border: 1px solid rgb(22, 21, 21);
+     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+     transition: all 400ms ease;
+     transform: translatey(-2%);
+     margin-top: 5px;
+      
+  
+}
+.navLink:hover {
+    background-color: #6b67674d;
+    box-shadow: 0 0 10px  #b2b6b6, 0 0 10px  #89898a, 0 0 10px  #afacac ;
+    transition-delay: 3ms;
+    
+    
+} 
+@media (max-width: 500px){
+    
+    .navBarContainer{
+        width: 100%;
+        height: 50%;
+    }
+    .navContent{
+        justify-content: space-evenly ;
+        display: inline-flex;
+        width: 100%;
+        height: 50px;
+        
+       
+     
+    }
+    .navLink{
+        color: rgb(15, 15, 15);
+        text-decoration: none;
+        font-size: 20px ;
+         border: 1px solid rgb(22, 21, 21);
+         box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+         transition: all 400ms ease;
+         transform: translatey(-2%);
+         margin-top: 5px;
+          
+      
+    }
+}

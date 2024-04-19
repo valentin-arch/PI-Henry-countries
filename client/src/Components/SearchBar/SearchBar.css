@@ -1,0 +1,113 @@
+
+.searchBarContent {
+  font-size: 17px;
+  display:inline-flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  padding: 18px 0;
+  margin-right: 40px;
+  
+}
+
+.inputCountry {
+    border: solid 1px;
+    display: inline;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    background: #82b3aa00;
+    color:rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.inputCountry:hover{
+  background-color: #d7d8d881 ;
+ 
+  border: 1px solid rgba(206, 192, 192, 0.63);
+  opacity: .8;
+}
+
+.inputBtn {
+  cursor: pointer;
+ 
+  border: 0;
+  font-weight: bold;
+  padding: 15px 20px;
+  background: #7e47470e;
+  padding-top: 28px ;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 20px;
+  /* s */
+  background-color: rgba(156, 148, 148, 0.274);
+  background-image: url("../../assets/1f30d.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% 80%;
+  
+  }
+
+
+  .inputBtn:hover {
+    background-color: #d8d7d7 ;
+ 
+    border: 1px solid white;
+    opacity: .8;
+  } 
+  .reloadbutton {
+    
+    font-size: 20px;
+   
+    
+    
+    /* cursor: pointer;
+    border-radius:20px;
+    color: rgb(51, 85, 119);
+    display: flex;
+    height: 48px;
+    width: 50px;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 14px; */
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border: 0;
+    font-weight: bold;
+    padding: 20px 20px;
+    background: #7e47470e;
+    padding-top: 28px ;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #1a708d0a;
+    margin-top: 10px; 
+    background-image: url("../../assets/simbolo-de-recarga.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 70%;
+  }
+
+  .reloadbutton:hover{
+    background-color: #36a0c000;
+    box-shadow: 0 0 10px  #d4d4da, 0 0 10px  #fdfcfc9d, 0 0 10px  #e6dfdf ;
+    transform: translateY(-1px);
+  }
+
+
+  @media (max-width: 500px){
+    .searchBarContent {
+      font-size: 5px;
+      display:flex;
+      
+      justify-content: space-between;
+      align-items: center;
+      height: 5px;
+      padding: 18px 0;
+      margin-right: 40px;
+      
+    }
+  }

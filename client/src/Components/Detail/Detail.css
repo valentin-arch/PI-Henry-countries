@@ -1,0 +1,110 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+} */
+
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(87, 81, 83)
+} */
+.objDetailImg{
+  margin-top: 4px;
+  border-radius: 0px;
+}
+.detail{
+
+  display:block;
+  overflow: hidden;
+  background-image: url("../../assets/cardteailback.jpg");
+  box-shadow: 0 5px 10px saddlebrown;
+}
+.navId{
+  display: flex;
+  width: 600px;
+  height: 60px;
+}
+.objDetailName{
+  text-decoration: underline;
+  font-size: 40px;
+}
+.detailDescrip{
+  align-items: center;
+  font-size: 15px;
+}
+
+.activitiesDetail{
+  font-size: 20px;
+  
+}
+.linkAct{
+  font-size: 10px;
+  border-radius: 10px;
+  box-shadow: 10px;
+  text-decoration: underline;
+}
+
+.detail{
+  
+  animation: move-vector 3s linear infinite;
+
+}
+
+@keyframes move-vector {
+  0%{
+      transform: translateY(15px);
+  }50%{
+      transform: translateY(0px);
+  }100%{
+      transform: translateY(15px);
+  }
+}
+
+@media (max-width: 500px){
+  
+  .objDetailImg{
+    margin-top: 4px;
+    border-radius: 0px;
+    width: 200px;
+    display: flex;
+    margin-left: 10px;
+    position:fixed;
+
+  }
+  .navId{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    
+  }
+  .objDetailName{
+    
+    font-size: 20px;
+    margin-left: 110px;
+    
+  }
+  .detailDescrip{
+    align-items: center;
+    font-size: 8px;
+    margin-left: 110px;
+  }
+  .linkAct{
+    display: flex;
+    font-size: 5px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    text-decoration: underline;
+    margin-left: 5px;
+    align-items: stretch;
+  }
+  .activitiesDetail{
+    font-size: 10px;
+   display: flex;
+   justify-content: space-between;
+    
+  }
+}

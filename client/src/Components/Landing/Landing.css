@@ -1,0 +1,200 @@
+
+ 
+body{
+     background-image: url("../../assets/backgroundhome3final.jpg"); 
+     /* background-image: url("../../assets/otraimagenfea.jpg"); */
+     
+    background-size: cover;
+    background-position: 100%;  
+    background-repeat: no-repeat;
+   
+  
+   
+   /* width: auto;
+   height: auto;
+    padding: auto; */
+    
+
+}
+body{
+    animation:  fadeIn 3s ease;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        filter: blur(20px);
+    }
+    10%{
+        opacity: 1;
+        filter: brightness(2) blur(10px);
+    }
+    
+}
+
+
+.landing-Back{
+    background-color: rgb(109, 109, 153);
+    display:contents;
+   
+
+}
+
+
+    .landingContain{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: row-reverse;
+        
+    }
+
+    .welcome{
+        display: flex;
+        width: 50%;
+        margin-top: 50px;
+    }
+.landingWelcome{
+   
+    align-items: center;
+    color: rgb(25, 25, 26);
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 80px;
+    padding: 0px;
+    
+}
+.buttonHome{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: flex;
+    margin: 0px;
+    flex: 1;
+    list-style: none;
+    margin-left: 130px;
+    padding: 8px;
+    background-color: rgba(139, 196, 196, 0.137);
+  
+}
+.btnBtn{
+    font-size: 20px;
+    box-shadow: rgba(231, 180, 147, 0);
+    background-color: rgb(211, 195, 195);
+}
+ 
+    
+.btnBtn:hover {
+    background-color: #7cb9bb3d;
+    box-shadow: 0 0 10px  #7d8f96, 0 0 10px  #6c8faf86, 0 0 10px  #b1b1b1 ;
+    transform: translateY(-1px);
+   
+    
+}
+.imageLanding{
+    
+    display: flex;
+    
+    margin-bottom: 50px;
+    
+}
+
+
+.imageLanding{
+  
+    animation: move-vector 4s linear infinite;
+  
+  }
+  
+  @keyframes move-vector {
+    0%{
+        transform: translateY(15px);
+    }50%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(15px);
+    }
+  }
+  @media (max-width: 700px){
+    .landingContain{
+        display: block;}
+        .landingWelcome{
+   
+            align-items: center;
+            color: rgb(25, 25, 26);
+            font-family: Times, "Times New Roman", Georgia, serif;
+            font-size: 40px;
+            padding: 10px;
+            margin-top: -80px;
+            
+        }
+        .buttonHome{
+            /* position: relative; */
+            top: 60%;
+            left: 40%;
+            display: flex;
+            margin: 0px;
+            flex: 1;
+            list-style: none;
+            margin-left: 60px;
+            padding: 30px;
+            background-color: rgba(139, 196, 196, 0.137);
+          
+        }
+        .btnBtn{
+            font-size: 20px;
+            box-shadow: rgba(231, 180, 147, 0);
+            background-color: rgb(211, 195, 195);
+        }
+         
+            
+        .btnBtn:hover {
+            background-color: #7cb9bb3d;
+            box-shadow: 0 0 10px  #7d8f96, 0 0 10px  #6c8faf86, 0 0 10px  #b1b1b1 ;
+            transform: translateY(-1px);
+           
+            
+        }
+        .imageLanding{
+    
+            display: flex;
+            
+            margin-bottom: 30px;
+            
+        }
+    }
+
+        @media (max-width: 500px){
+    .landingContain{
+display: contents;    }
+  
+      
+
+   
+        .buttonHome{
+           
+            top: 30%;
+            left: 40%;
+            display: flex;
+            margin: 0px;
+            flex: 1;
+            list-style: none;
+            margin-left: 60px;
+            padding: 30px;
+          
+          
+        }
+   
+       
+        
+        .imageLanding{
+    
+            display: flex;
+            
+            margin-bottom: 50px;
+          width: 50px;
+          height: 230px;
+            
+        }
+    }
+   
+
+
